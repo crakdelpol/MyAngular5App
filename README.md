@@ -12,7 +12,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Build in production
+
+Run `ng build --prod --base-href \MyAngular5App\ --output-path docs`. The build artifacts will be stored in the `docs/` directory and then github-pages deploy automatically the result [Here](https://crakdelpol.github.io/MyAngular5App/)
+
 
 ## Running unit tests
 
